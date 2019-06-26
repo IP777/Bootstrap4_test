@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sansa-serif;
+	color: #222;
+}
+
+.carousel-inner{
+	height: 800px;
+}
+
+.carousel-inner img{
+	height: 100%;
+	/*transform: translateX(-10%);*/
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	text-shadow: 1px 1px 10px #000;
+	transform: translateY(30%);
+	text-align: right !important;
+}
+
+@media (min-width: 1600px) {
+	.carousel-inner img{width: 100%;}
+	.carousel-caption{transform: translateY(22%);}
+}
+
+.slider-text{
+	font-size: 1.4em;
+	color: blanchedalmond;
+}
+
+.display-4{
+	color: blanchedalmond;
+	margin: 0 auto;
+}
+
+#link{
+	color: #DCDCDC;
+	text-shadow: 1px 1px 2px black;
+}
+
+#link:hover {
+    color: #ffe;
+    text-decoration: none;
+}
+
+.delimiter-text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+.delimiter-text:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 100px;
+}
+.delimiter-text:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 100px;
+}
+
+.my-card{
+	max-width: 100%;
+	padding-bottom: 10px
+}
+
+.alert{
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	color: #37383a;
+	/*text-shadow: 1px 1px 2px black;*/
+}
+
+.padding{
+	padding-bottom: 2em;
+}
+
+.social a{
+	font-size: 2em;
+	padding: 10px;
+}
+
+.fa-facebook {color: #3b5998}
+.fa-instagram {color: #517fa4}
+.fa-twitter {color: #00aced}
+.fa-google-plus-g {color: #dd4b39}
+
+.fa-facebook:hover, .fa-instagram:hover,
+.fa-twitter:hover, .fa-google-plus-g:hover{
+	color: #ccc;
+}
+
+footer{
+	background-color: #272424;
+	padding-top: 30px;
+	border-top: 4px solid silver;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
